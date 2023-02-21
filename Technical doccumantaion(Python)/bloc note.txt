@@ -1,0 +1,13 @@
+#main-doc p{
+    font-family: Consolas,monospace;        
+}
+<section class="main-section" id="for">
+<a class="nav-link nav-level-2" href="#where_can_we_use_markdown?">Where can we use Markdown?</a>
+
+GUI-based desktop applications
+Graphic design, image processing applications, Games, and Scientific/ computational Applications
+Web frameworks and applications 
+Enterprise and Business applications 
+Operating Systems 
+Education
+Database Access

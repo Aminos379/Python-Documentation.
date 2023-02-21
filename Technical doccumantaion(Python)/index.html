@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="documentation">
+    <title>Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+         <header><h2>Python Documentation</h2></header>
+
+            <ul>
+                <li><a href="#Introduction:" class="nav-link">Introduction:</a></li>
+                <li><a href="#Why_using_Python?" class="nav-link">Why using Python?</a></li>
+                <li><a href="#Type_your_first_code:" class="nav-link">Type your first code:</a></li>
+                <li><a href="#Creating_Variables:" class="nav-link">Creating Variables:</a></li>
+                <li><a href="#Python_Lists:" class="nav-link">Python Lists:</a></li>
+                <li><a href="#Python_Data_Types:" class="nav-link">Python Data Types:</a></li>
+                <li><a href="#Python_For_Loops:" class="nav-link">Python For Loops:</a></li>
+                <li><a href="#Python_While_Loops:" class="nav-link">Python While Loops:</a></li>
+                <li><a href="#References:" class="nav-link">References:</a></li>
+            </ul>
+    </nav>
+    
+    <main id="main-doc">
+        <section class="main-section" id="Introduction:">
+            <header>Introduction:</header>
+            <p>Python is a widely used general-purpose, high level programming language. It was created by Guido van Rossum in 1991 and further developed by the Python Software Foundation. It was designed with an emphasis on code readability, and its syntax allows programmers to express their concepts in fewer lines of code.
+
+            Python is a programming language that lets you work quickly and integrate systems more efficiently.
+
+            There are two major Python versions: Python 2 and Python 3. Both are quite different.</p>
+        </section>
+        <section class="main-section" id="Why_using_Python?">
+            <header>Why using Python?</header>
+            <p>
+                Python is commonly used for developing websites and software, task automation, data analysis, and data visualization. Since it’s relatively easy to learn, Python has been adopted by many non-programmers such as accountants and scientists, for a variety of everyday tasks, like organizing finances.
+
+                “Writing programs is a very creative and rewarding activity,” says University of Michigan and Coursera instructor Charles R Severance in his book Python for Everybody. “You can write programs for many reasons, ranging from making your living to solving a difficult data analysis problem to having fun to helping someone else solve a problem.” <br> They are used specialy in: <br>
+                <ul>
+                    <li>GUI-based desktop applications</li>
+                    <li>Graphic design, image processing applications, Games, and Scientific/ computational Applications</li>
+                    <li>Web frameworks and applications </li>
+                    <li>Enterprise and Business applications </li>
+                    <li>Operating Systems </li>
+                    <li>Database Access</li>
+                </ul>
+            </p>
+        </section>
+        <section class="main-section" id="Type_your_first_code:">
+            <header>Type your first code:</header>
+            <p>Just type in the following code after you start the interpreter. <br></p>
+                <code> <span># Script Begins</span>  <br> print("Hello world") <br>  <span># Scripts Ends</span> </code> 
+                <p>Output: </p> 
+                <code>Hello world</code> 
+                
+        </section>
+        <section class="main-section" id="Creating_Variables:">
+            <header>Creating Variables:</header>
+            <p>Python has no command for declaring a variable.
+
+                A variable is created the moment you first assign a value to it . <br>Exemple: </p>
+            <code>x = 5 <br>
+                y = "John" <br>
+                print(x) <br>
+                print(y)</code> 
+                <p>Variables do not need to be declared with any particular type, and can even change type after they have been set.</p> 
+                <code>x = 4  <br>    
+                    x = "Sally" <br>
+                    print(x)</code>  
+                  <p>If you want to specify the data type of a variable, this can be done with casting.</p>
+                  <code>
+                        x = str(3)   <span># x will be '3'</span>  <br>
+                        y = int(3)   <span># y will be 3</span>  <br>
+                        z = float(3) <span># z will be 3.0</span>
+                    </code>           
+        </section>
+        <section class="main-section" id="Python_Lists:"> 
+            <header>Python Lists:</header>
+            <p>Lists are used to store multiple items in a single variable.
+
+                Lists are one of 4 built-in data types in Python used to store collections of data, the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage.
+                
+                Lists are created using square brackets:</p>
+            <code>
+                thislist = ["apple", "banana", "cherry", "apple", "cherry"] <br>
+                print(thislist)
+            </code> 
+            <p>List items can be of any data type:
+                <b>Example:</b>
+            </p>
+            <code>list1 = ["apple", "banana", "cherry"] <br>
+                list2 = [1, 5, 7, 9, 3] <br>
+                list3 = [True, False, False]</code>
+            <p>A list can contain different data types:
+                <b>Example</b> <br>
+                <p>A list with strings, integers and boolean values:</p>
+            </p>
+            <code>list1 = ["abc", 34, True, 40, "male"]</code>
+        </section>
+        <section class="main-section" id="Python_Data_Types:">
+            <header>Python Data Types:</header>
+            <p>In programming, data type is an important concept.
+
+                Variables can store data of different types, and different types can do different things.
+                
+                Python has the following data types built-in by default, in these categories:</p>
+                <div class="image">
+                    <img src="python-data-types.jpg" alt="">
+                </div>
+                <p>You can get the data type of any object by using the <b>type()</b> function: <br>Example <br>
+
+                    Print the data type of the variable x: </p>
+                <code>x = 5 <br>
+                    print(type(x))  </code>  
+        </section>
+        <section class="main-section" id="Python_For_Loops:">
+            <header>Python For Loops:</header>
+            <p>
+                A  <b>for</b> loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string). <br> <br>
+
+                This is less like the <b>for</b> keyword in other programming languages, and works more like an iterator method as found in other object-orientated programming languages. <br> <br>
+                
+                With the <b>for</b> loop we can execute a set of statements, once for each item in a list, tuple, set etc. <br> <br>
+                Example <br>
+                Print each fruit in a fruit list:
+            </p>
+            <code>for x in "banana": <br>
+                print(x)</code>
+                <p>With the break statement we can stop the loop before it has looped through all the items: <br>
+                    Example <br>
+        
+                    Exit the loop when x is "banana": </p>
+            <code>fruits = ["apple", "banana", "cherry"] <br>
+                for x in fruits: <br>
+                  print(x) <br>
+                  if x == "banana": <br>
+                    break</code>        
+        </section>
+        <section class="main-section" id="Python_While_Loops:">
+            <header>Python While Loops:</header>
+            <p>With the while loop we can execute a set of statements as long as a condition is true. <br>
+                Example <br>
+
+                Print i as long as i is less than 6: </p>
+                <code>i = 1 <br>
+                    while i < 6: <br>
+                      print(i) <br>
+                      i += 1</code>
+                      <p>The while loop requires relevant variables to be ready, in this example we need to define an indexing variable, i, which we set to 1.</p>
+        </section>
+        <section class="main-section" id="References:">
+            <header>References:</header>
+            <p>All the documentation in this page is taken from <a  href="https://www.w3schools.com/python/python_while_loops.asp" target="_blank">W3schools</a>,  <a href="https://pynative.com/python-data-types/" target="_blank">Pynactive</a> and <a href="https://www.coursera.org/articles/what-is-python-used-for-a-beginners-guide-to-using-python" target="_blank">Coursera</a></p>
+        </section>
+    </main>
+</body>
+</html>
